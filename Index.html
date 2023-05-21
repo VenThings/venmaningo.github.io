@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I Love You, Noime!</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      background-image: url("heart.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: pink;
+      font-size: 120px;
+      margin-top: 200px;
+    }
+    
+    .container {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>I love you, Noime!</h1>
+
+  <div class="container">
+    <div class="heart"></div>
+    <p>Made with love by <strong>Ven your lablab</strong></p>
+  </div>
+
+  <audio id="myAudio" controls autoplay muted>
+    <source src="pogisihaven.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    document.getElementById("myAudio").play();
+  </script>
+</body>
+</html>
